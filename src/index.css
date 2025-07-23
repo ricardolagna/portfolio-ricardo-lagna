@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilo base para o body */
+body {
+  @apply bg-gradient-to-br from-[#0a0a0a] via-[#0f172a] to-[#1e293b] text-white font-sans leading-relaxed;
+}
+
+/* Cabeçalhos com destaque azul */
+h1, h2, h3 {
+  @apply text-blue-500 font-bold;
+}
+
+/* Secções com espaçamento uniforme */
+section {
+  @apply py-16 px-6;
+}
+
+/* Botões com aparência consistente */
+button {
+  @apply bg-blue-600 hover:bg-blue-700 transition duration-300 text-white px-6 py-3 rounded-lg font-medium;
+}
+
+/* Campos de formulário */
+input,
+textarea {
+  @apply w-full bg-white/10 text-white placeholder-gray-400 border border-blue-500/20 rounded-md px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-600;
+}
+
+/* Realce de seleção de texto */
+::selection {
+  background-color: #3b82f6;
+  color: white;
+}
