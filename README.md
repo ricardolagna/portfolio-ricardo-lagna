@@ -5,7 +5,7 @@ Apresenta projetos reais e funcionais que desenvolvi ao longo da minha jornada n
 
 ## 🔗 Link do Portfólio Online
 
-👉 [Aceder ao site publicado]//https://portfolio-ricardolagna.netlify.app/)
+👉 [Aceder ao site publicado](//https://portfolio-ricardolagna.netlify.app/)
 
 ## 🧠 Sobre Mim
 
